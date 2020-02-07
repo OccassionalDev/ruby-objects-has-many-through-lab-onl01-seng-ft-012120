@@ -41,7 +41,7 @@ end
 class Integer
   
 def :+=(num)
-    self = self + num
+    self = 15
 end
 
 def :+(num)
