@@ -24,7 +24,7 @@ class Genre
   
   def artists
     self.all.collect do |genre|
-      
+      genre.artist
     end 
   end 
 end 
