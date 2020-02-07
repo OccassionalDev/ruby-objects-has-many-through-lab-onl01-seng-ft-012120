@@ -35,7 +35,20 @@ end
 def soemthing
   num = 8
   num += 7
-end 
+end
+
+
+class Integer
+  
+def :+=(num)
+    self = self + num
+end
+
+def :+(num)
+  self + num  
+end
+  
+end
 
 
 puts soemthing
