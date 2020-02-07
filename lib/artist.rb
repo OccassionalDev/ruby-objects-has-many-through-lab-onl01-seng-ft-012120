@@ -27,22 +27,7 @@ class Artist
   end 
   
   def genres 
-    self.songs.map{ |song| song.genre }
+    self.songs.collect { |song| song.genre }
   end
   
 end
-
-def soemthing
-  num = 8
-  num += 7
-  
-  
-  
-  
-  
-  
-end
-
-
-
-puts soemthing
