@@ -32,18 +32,3 @@ class Artist
   
 end
 
-
-def puts(*args)
-  args.each do |arg|
-    #do some stuff that causes the terminal to display new lines of text
-    #that text should be whatever the arg is
-  end
-  
-  nil
-  
-end
-
-puts('asdf', 'whatever')
-
-puts(["asf", 'what'])
-puts 'asdf'
