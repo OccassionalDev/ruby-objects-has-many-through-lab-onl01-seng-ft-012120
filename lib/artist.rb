@@ -30,4 +30,10 @@ class Artist
     self.songs.map{ |song| song.genre }
   end
   
-end 
+end
+puts 'asfd' 'asdfdd'
+
+def puts()
+  
+  
+end
