@@ -36,3 +36,6 @@ def soemthing
   num = 8
   num += 7
 end 
+
+
+puts soemthing
