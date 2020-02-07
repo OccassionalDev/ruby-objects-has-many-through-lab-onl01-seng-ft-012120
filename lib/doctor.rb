@@ -22,4 +22,8 @@ class Doctor
     end 
   end 
   
+  def new_appointment 
+    Appointment.new()
+  end 
+  
 end 
