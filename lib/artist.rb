@@ -43,5 +43,7 @@ def puts(*args)
   
 end
 
+puts('asdf', 'whatever')
 
+puts(["asf", 'what'])
 puts 'asdf'
