@@ -39,17 +39,5 @@ def soemthing
 end
 
 
-class Integer
-  
-def :+=(num)
-    self = 15
-end
-
-def :+(num)
-  self + num  
-end
-  
-end
-
 
 puts soemthing
